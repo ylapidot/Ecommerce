@@ -13,7 +13,7 @@ namespace Ecommerce
         {
            if(!IsPostBack)
             {
-
+                Response.Redirect("/");
             }
         }
 

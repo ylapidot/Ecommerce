@@ -11,7 +11,8 @@ namespace Ecommerce
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-           
+            int x = 0;
+            x++;
             
             // רשימה - רשימה מקושרת- רשימה חד כיוונית
             // זהו אוסף של איבירם כשר כל איבר מחובר לאיבר נוסף, ואילו האיבר האחרון מחובר לכולם 
