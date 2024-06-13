@@ -14,7 +14,7 @@ namespace Ecommerce
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-
+            string st = "aa";
             if(!IsPostBack)
             {
                 List<Product> LstProd = new List<Product>();// הגדרנו רשימה של מוצרים
